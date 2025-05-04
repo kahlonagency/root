@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "@kahlonagency/root",
+    },
+    "packages/config": {
+      "name": "@kahlonagency/config",
+      "version": "0.0.0",
+    },
+  },
+  "packages": {
+    "@kahlonagency/config": ["@kahlonagency/config@workspace:packages/config"],
+  }
+}

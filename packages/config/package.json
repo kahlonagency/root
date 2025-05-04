@@ -1,0 +1,16 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"author": {
+		"email": "hunar.roop@gmail.com",
+		"name": "Hunar Roop Kahlon"
+	},
+	"bugs": {
+		"url": "https://github.com/kahlonagency/root/issues"
+	},
+	"description": "Configuration files for kahlonagency packages",
+	"name": "@kahlonagency/config",
+	"packageManager": "bun@1.2.11",
+	"private": true,
+	"type": "module",
+	"version": "0.0.0"
+}
