@@ -1,0 +1,21 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"author": {
+		"email": "hunar.roop@gmail.com",
+		"name": "Hunar Roop Kahlon"
+	},
+	"bugs": {
+		"url": "https://github.com/kahlonagency/root/issues"
+	},
+	"description": "Monorepo for kahlonagency packages",
+	"name": "@kahlonagency/root",
+	"packageManager": "bun@1.2.11",
+	"private": true,
+	"repository": {
+		"directory": ".",
+		"type": "git",
+		"url": "https://github.com/kahlonagency/root.git"
+	},
+	"type": "module",
+	"workspaces": ["apps/*", "packages/*", "templates/*"]
+}
